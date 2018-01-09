@@ -1,3 +1,3 @@
 # jvlyn.github.io
 
-See [page](jvlyn.github.io).
+See [page](http://jvlyn.github.io).
