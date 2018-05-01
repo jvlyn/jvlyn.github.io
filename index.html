@@ -9,8 +9,8 @@
     <style type="text/css">
 
     body {
-      color: #9c9c9c;
-      background: #393c42;
+      color: #606b6a;
+      background: #eaeaea;
       font-family: "Raleway";
       font-weight: 200;
     }
@@ -19,7 +19,7 @@
       position: absolute;
       top: 50%;
       left: 50%;
-      width: 50%;
+      width: 40%;
       -webkit-transform: translate(-50%,-50%);
       -moz-transform: translate(-50%,-50%);
       -ms-transform: translate(-50%,-50%);
@@ -29,7 +29,7 @@
 
     .header {
       position: relative;
-      text-align: center;
+      text-align: left;
       color: inherit;
       font-family: "Garamond";
       font-size: 40px;
@@ -38,7 +38,7 @@
 
     .body {
       font-size: 18px;
-      text-align: justify;
+      text-align: left;
       letter-spacing: 1px;
     }
 
@@ -49,27 +49,26 @@
     }
 
     a {
-      color: #a4de9a;
+      color: #81af6e;
       text-decoration: none;
     }
 
     a:hover {
-      color: #4286f4;
+      color: #527b91;
     }
 
     .column-left {
       float: left;
-      width: 33%;
-    }
-
-    .column-center {
-      display: inline-block;
-      width: 33%;
+      width: 50%;
     }
 
     .column-right {
       float: right;
-      width: 33%;
+      width: 50%;
+    }
+
+    li {
+      margin: 10px 0;
     }
 
     </style>
@@ -79,24 +78,44 @@
   <body>
 
   <div class="container centered">
-      <h1 class="header">Hello, I'm Julie.</h1>
+      <h1 class="header">
+
+          Hello, I'm Julie.
+
+          &nbsp;
+          &nbsp;
+
+          <a href="https://github.com/jvlyn">
+          <img src="images/GitHub-Mark-120px-plus.png" alt="GitHub logo"
+          width="32" height="32">
+          </a>
+          <a href="https://www.linkedin.com/in/julieyyuan">
+          <img src="images/In-Black-34px-TM.png" alt="LinkedIn logo"
+          width="42" height="32">
+          </a>
+          <a href="mailto:julie.y.yuan@gmail.com">
+          <img src="images/if_aiga_mail_bg_134145.png" alt="Mail icon"
+          width="32" height="32">
+          </a>
+      </h1>
+
+      <hr>
 
       <h4 class="body">
-        I study mathematics and computer science at the
-        <a href="https://twin-cities.umn.edu/">University of
-        Minnesota, Twin Cities</a>. I also work as a teaching
-        assistant for the <a href="https://www.cs.umn.edu/">
-        Department of Computer Science and Engineering</a>, as
-        well as for <a href="http://www.mathcep.umn.edu/">MathCEP</a>.
+        <ul>
+            <li> Undergraduate student studying computer science and mathematics at the
+            <a href="https://twin-cities.umn.edu/">University of
+            Minnesota, Twin Cities</a>. </li>
+            <li> Teaching assistant for the <a href="https://www.cs.umn.edu/">
+            Department of Computer Science and Engineering</a>. </li>
+            <li> Technical skills include: Python, C, Java, OCaml, and LaTeX. </li>
+            <li> Current CV <a href="/pdfs/CVApril2018.pdf">here</a>.
+
+        <ul>
+
       </h4>
 
-      <h4 class="body">
-        I am committed to the advancement of women, persons of color, members
-        of the LGBTQIA+ community, and other underrepresented groups in STEM
-        fields.
-      </h4>
-
-      <div class="column-left">
+      <!-- <div class="column-left">
         <h4 class="bottom-link"> <a href="/pdfs/CVDec2017.pdf">CV</a> </h4>
       </div>
       <div class="column-center">
@@ -104,7 +123,7 @@
       </div>
       <div class="column-right">
         <h4 class="bottom-link"> <a href="/contact.html">Contact</a> </h4>
-      </div>
+      </div> -->
 
   </div>
 
