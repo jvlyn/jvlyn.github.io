@@ -1,155 +1,161 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Julie Yuan</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<!--Custom fonts. To improve load times, remove this and update the h1 styling in style.css-->
+	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:600&display=swap" rel="stylesheet">
+	<!-- stylesheets -->
+	<link rel="stylesheet" href="style.css" type="text/css" />
 
-  <head>
+	<!-- just in case viewer is using Internet Explorer -->
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+</head>
 
-    <title>Julie Yuan</title>
+<body>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <div class="container">
 
-    <!-- Custom styles for this template -->
-    <link href="css/shop-item.css" rel="stylesheet">
+    <div class="row">
+      <div class="grid-6" id="centered-content">
+        <img src="images/me.jpg" alt="Julie profile">
+      </div>
+    </div>
 
-  </head>
+    <div class="Topbar">
+      <div class="header-text">
+        Hi, I'm Julie.
+      </div>
+    </div>
 
-  <body>
+    <div class="Topbar">
+      <div class="Topbar-link">
+        <a href="index.html">Home</a>
+      </div>
+      <div class="Topbar-link">
+        <a href="cv.html">CV</a>
+      </div>
+      <div class="Topbar-link">
+        <a href="research.html">Research</a>
+      </div>
+    </div>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">About
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="research.html">Research</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">CV
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
+    <section>
+      <div class="row">
+        <div class="grid">
+          <h2>Education</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="grid-4">
+          <p>University of Minnesota, Twin Cities <br> B.S., Computer Science and Mathematics</p>
+        </div>
+        <div class="grid-2" id="date">
+          <p>June 2020</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="grid-3">
+          <ul>
+            <li>CSCI 4041 - Algorithms</li>
+            <li>CSCI 4511W - Intro. AI</li>
+            <li>CSCI 5521 - Intro. Machine Learning</li>
+            <li>CSCI 4061 - Operating Systems</li>
+          </ul>
+        </div>
+        <div class="grid-3">
+          <ul>
+            <li>MATH 5651 - Theory of Probability</li>
+            <li>MATH 8201 - Abstract Algebra</li>
+            <li>MATH 5615 - Real Analysis</li>
+            <li>MATH 5345H - Topology</li>
           </ul>
         </div>
       </div>
-    </nav>
+    </section>
 
-    <!-- Page Content -->
-    <div class="container">
+    <hr>
 
+    <!--Experience Tables-->
+    <section class="experience">
       <div class="row">
-
-        <div class="col-lg-3">
-          <h1 class="my-4">Julie Yuan</h1>
-          <div class="card card-outline-secondary my-4">
-            <div class="card-header">
-              Contact
-            </div>
-            <div class="card-body">
-              <p><img src="images/if_aiga_mail_bg_134145.png" alt="Mail icon"
-              width="45" height="45"><a href="mailto:julie.y.yuan@gmail.com">julie.y.yuan@gmail.com</a></p>
-              <hr>
-              <p><img src="images/GitHub-Mark-120px-plus.png" alt="GitHub logo"
-              width="45" height="45"><a href="http://github.com/jvlyn">github.com/jvlyn</a></p>
-              <hr>
-              <p><img src="images/In-Black-34px-TM.png" alt="LinkedIn logo"
-              width="45" height="40"><a href="http://linkedin.com/in/julieyyuan">linkedin.com/julieyyuan</a></p>
-            </div>
-          </div>
+        <div class="grid-2">
+          <h2>Target Corp.</h2>
+          <p>Software Engineering Intern</p>
+          <p>Jun. 2019 - Aug. 2019</p>
         </div>
-        <!-- /.col-lg-3 -->
-
-        <div class="col-lg-9">
-
-          <div class="card mt-4">
-            <div class="card-body">
-              <h3 class="card-title">Education</h3>
-              <p class="card-text">
-                <b>B.S., Computer Science and Mathematics,</b> <i>University of Minnesota, Twin Cities (2016-2020)</i>
-                <br>
-                Selected coursework:
-                <ul>
-                  <li>CSCI 4041: Algorithms and Data Structures</li>
-                  <li>CSCI 4061: Operating Systems</li>
-                  <li>CSCI 2041: Advanced Programming Principles</li>
-                  <li>CSCI 2021: Machine Architecture</li>
-                  <li>MATH 8201: General Algebra</li>
-                  <li>MATH 5651: Theory of Probability and Statistics</li>
-                  <li>MATH 5615H/5616H: Real Analysis</li>
-                  <li>MATH 5345H: Topology</li>
-                </ul>
-              </p>
-            </div>
-          </div>
-          <!-- /.card -->
-
-          <div class="card mt-4">
-            <div class="card-body">
-              <h3 class="card-title">Experience</h3>
-              <p class="card-text">
-                <b>Undergraduate Teaching Assistant,</b> <i>CS&E Department, University of Minnesota (Sept. 2017-Present)</i>
-                <ul>
-                  <li>Teaching assistant for CSCI 1133 (Intro to Programming) and CSCI 2041 (Adv. Programming Principles). </li>
-                  <li>Co-led 2 lab sections of 30+ students per week. </li>
-                  <li>Answered student questions about course material in office hours and via email. </li>
-                  <li>Graded projects and exams, and provided constructive feedback. </li>
-                </ul>
-                <b>Undergraduate Researcher,</b> <i>SMALL REU, Williams College (June 2018-Aug. 2018)</i>
-                <ul>
-                  <li>Studied gonalities of combinatorial and metric graphs, and proved results relating
-                    divisorial and geometric gonality. </li>
-                  <li>Developed Graph and Divisor modules in SageMath/Python to determine graph gonalities and
-                    automate testing of conjectures. </li>
-                  <li>Presented results at MAA MathFest 2018. Results have been submitted for publication.
-                </ul>
-              </p>
-            </div>
-          </div>
-
-          <div class="card mt-4">
-            <div class="card-body">
-              <h3 class="card-title">Technical Skills</h3>
-              <p class="card-text">
-                <ul>
-                  <li><b>Languages:</b> Python 3, Java, C, OCaml, HTML/CSS </li>
-                  <li><b>Tools:</b> Git/GitHub, LaTeX
-                </ul>
-              </p>
-            </div>
-          </div>
-
+        <div class="grid-4">
+          <ul>
+            <li>Developed a REST API using Spring Boot to provide backend support for a new guest profile feature.</li>
+            <li>Integrated data storage in Cassandra and Google Cloud Platform using a layered microservice-based architecture.</li>
+            <li>Incorporated end-to-end testing through unit and functional tests, code coverage tools, and a front-end UI built with React and Node.js.</li>
+          </ul>
         </div>
-        <!-- /.col-lg-9 -->
-
       </div>
-
-    </div>
-    <!-- /.container -->
-
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
-      <div class="container">
-        <p class="m-0 text-right text-white">Updated: 11/2018</p>
+      <div class="row">
+        <div class="grid-2">
+          <h2>Williams College</h2>
+          <p>Undergraduate Researcher</p>
+          <p>Jun. 2018 - Aug. 2018</p>
+        </div>
+        <div class="grid-4">
+          <ul>
+            <li>Studied connections between combinatorial invariants of graphs.</li>
+            <li>Developed Python modules which were used by our research group to validate conjectures and provide computational evidence.</li>
+            <li>Collaborated to produce five research papers and two conference presentations.</li>
+          </ul>
+        </div>
       </div>
-      <!-- /.container -->
-    </footer>
+      <div class="row">
+        <div class="grid-2">
+          <h2>University of Minnesota</h2>
+          <p>Undergraduate Teaching Assistant</p>
+          <p>Sept. 2017 - May 2019</p>
+        </div>
+        <div class="grid-4">
+          <ul>
+            <li>Co-led two lab sections of 30+ students per week.</li>
+            <li>Answered student questions in office hours and via email.</li>
+            <li>Graded projects and assessments while providing constructive feedback.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <hr>
 
-  </body>
+    <section>
+      <!--List of skills-->
+      <div class="row">
+        <div class="grid-3">
+          <h1>Languages</h1>
+          <ul>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C/C++</li>
+            <li>OCaml</li>
+            <li>Matlab</li>
+          </ul>
+        </div>
 
-</html>
+        <div class="grid-3">
+          <h1>Tools</h1>
+          <ul>
+            <li>Spring Boot</li>
+            <li>Docker</li>
+            <li>Cassandra</li>
+            <li>Git/GitHub</li>
+            <li>LaTeX</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+  </div><!-- End Container -->
+
+
+</body>
